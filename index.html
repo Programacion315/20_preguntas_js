@@ -14,7 +14,7 @@
 <body>
 
   <div id="Titulo">
-    <h1>Examen js - 30 preguntas</h1>
+    <h1>Examen js - 20 preguntas</h1>
   </div>
    
     <div id="contenido">
@@ -26,21 +26,24 @@
     <form>
         <div class="mb-3">
           <label for="numero-uno" class="form-label">Primer numero</label>
-          <input type="text" class="form-control" id="numero_uno" aria-describedby="emailHelp">
+          <input type="text" class="form-control" id="numero_uno">
         </div>
         <div class="mb-3">
           <label for="numeroDos" class="form-label">Segundo numero</label>
           <input type="text" class="form-control" id="numero_dos">
         </div>
-        <button class="btn btn-primary" id="validacion">Comprobar</button>
       </form>
+
+      <button class="btn btn-primary" id="validacion" onclick="comparar()">Comprobar</button>
+
+      <p id="res"></p>
+
     </div>
 
     </div>
-    <script href="js/code.js"></script>
+
+    <script src="js/code.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    
-
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
 
 </body>
